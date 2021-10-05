@@ -17,3 +17,5 @@ valeur de μ = mean(Population) ?
 réalisations de l’intervalle de confiance de μ de niveau de confiance 1 − α = 95%.
 Quel est le pourcentage des réalisations qui ne contiennent pas le paramètre μ =
 0.04575267 ?
+
+### Exercice 2:
