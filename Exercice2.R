@@ -1,4 +1,4 @@
-# Exercice 2
+# Exercice 2 : Loi gaussienne
   # Question 1 et 2
   M = 1000; mu = -10; n = 20; sigma = 1.5; Binf = c(); Bsup = c()
   Xbar = c(); Sc = c(); count = 0; Cq = qt(0.95, n-1)
