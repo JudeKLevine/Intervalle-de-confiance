@@ -34,8 +34,8 @@
     Bsup_var2[i] = (n - 1)*Sc[i]/C11
     if(Binf_var2[i] <= sigma & Bsup_var2[i] >= sigma){count_var2 = count_var2 + 1}
     if(Binf_var1[i] <= sigma & Bsup_var1[i] >= sigma){count_var1 = count_var1 + 1}
-    lines(c(Binf[i],Bsup[i]), c(i,i), col="red") # trace les intervalles
     if(Bsup_var2[i] - Binf_var2[i] < Bsup_var1[i] - Binf_var1[i]){c_lg = c_lg + 1}
+    # les differences des longueurs des intervalles
   }
   count_var1/M # 0.79
   count_var2/M # 0.9, assez proche de 0.95
